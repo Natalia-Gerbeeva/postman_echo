@@ -37,3 +37,4 @@ def test_custom_header():
     response = requests.get(f"{BASE_URL}/get", headers=headers)
     assert response.status_code == 200
     assert response.json()["headers"]["custom-header"] == "Test"
+# Test CI run
