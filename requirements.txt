@@ -9,3 +9,4 @@ Pygments==2.19.2
 pytest==9.0.2
 requests==2.32.5
 urllib3==2.6.3
+allure-pytest==2.14.0
